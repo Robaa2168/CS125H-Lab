@@ -86,8 +86,8 @@
     color: #606060;
 }
 
-@media (min-width: 768px) { /* Tablets and larger devices */
+@media (min-width: 768px) {
     .container {
-        max-width: 600px; /* Fixed width for larger devices */
+        max-width: 600px;
     }
 }
