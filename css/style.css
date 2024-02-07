@@ -3,7 +3,7 @@
 
 
 .container {
-    max-width: 600px;
+    max-width: 90vw;
     margin: auto;
     background: #fff;
     border: 1px solid #ddd;
@@ -29,7 +29,7 @@
     padding: 10px 0;
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .alert {
@@ -84,4 +84,10 @@
     font-size: 14px;
     border-top: 1px solid #ddd;
     color: #606060;
+}
+
+@media (min-width: 768px) { /* Tablets and larger devices */
+    .container {
+        max-width: 600px; /* Fixed width for larger devices */
+    }
 }
