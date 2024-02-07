@@ -86,8 +86,3 @@
     color: #606060;
 }
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 600px;
-    }
-}
