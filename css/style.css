@@ -86,7 +86,7 @@
     color: #606060;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .container {
         max-width: 600px;
         padding: 20px;
